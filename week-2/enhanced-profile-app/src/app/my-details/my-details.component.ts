@@ -1,3 +1,10 @@
+/**
+ * Title: my-details.components.ts
+ * Author: Oksana Kustova
+ * Date: 1/16/2022
+ * Description: MyDetailsComponent.
+ */
+
 import { Component, OnInit } from '@angular/core';
 
 

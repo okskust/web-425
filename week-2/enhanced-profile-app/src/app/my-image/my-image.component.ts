@@ -1,3 +1,10 @@
+/**
+ * Title: my-image.components.ts
+ * Author: Oksana Kustova
+ * Date: 1/16/2022
+ * Description: MyImageComponent.
+ */
+
 import { Component, OnInit } from '@angular/core';
 
 @Component({
