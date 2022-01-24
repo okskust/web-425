@@ -1,5 +1,5 @@
 {
-  "name": "secure-composer-app",
+  "name": "secure-profile-app",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
