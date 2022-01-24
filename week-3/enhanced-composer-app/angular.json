@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "enhanced-profile-app": {
+    "enhance-composer-app": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
@@ -17,12 +17,15 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/enhanced-profile-app",
+            "outputPath": "dist/enhance-composer-app",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
-            "assets": ["src/favicon.ico", "src/assets"],
+            "assets": [
+              "src/favicon.ico",
+              "src/assets"
+            ],
             "styles": [
               "./node_modules/bootstrap/dist/css/bootstrap.css",
               "src/styles.css"
@@ -69,10 +72,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "enhanced-profile-app:build:production"
+              "browserTarget": "enhance-composer-app:build:production"
             },
             "development": {
-              "browserTarget": "enhanced-profile-app:build:development"
+              "browserTarget": "enhance-composer-app:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -80,7 +83,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "enhanced-profile-app:build"
+            "browserTarget": "enhance-composer-app:build"
           }
         },
         "test": {
@@ -90,17 +93,18 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.spec.json",
             "karmaConfig": "karma.conf.js",
-            "assets": ["src/favicon.ico", "src/assets"],
+            "assets": [
+              "src/favicon.ico",
+              "src/assets"
+            ],
             "styles": [
               "src/styles.css"
             ],
-            "scripts": [
-
-            ]
+            "scripts": []
           }
         }
       }
     }
   },
-  "defaultProject": "enhanced-profile-app"
+  "defaultProject": "enhance-composer-app"
 }
