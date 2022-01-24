@@ -1,0 +1,14 @@
+/**
+============================================
+Title: singin.component.css
+Author: Oksana Kustova
+Date: 1/23/2022
+Description: Style for sing in page.
+===========================================
+*/
+
+.signin-container {
+  width: 35%;
+  margin: 0 auto;
+  margin-top: 10%;
+}
