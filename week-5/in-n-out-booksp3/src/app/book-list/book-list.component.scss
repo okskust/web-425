@@ -1,0 +1,17 @@
+/**
+============================================
+Title: book-list.component.scss
+Author: Oksana Kustova
+Date: 02/02/2022
+Description: Style for BookList component.
+===========================================
+*/
+
+.a-link {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.a-link:hover {
+  text-decoration: underline;
+}
