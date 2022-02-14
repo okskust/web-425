@@ -1,0 +1,33 @@
+<!--
+============================================
+Title: base-layout.component.html
+Author: Oksana Kustova
+Date: 02/13/2022
+Description: HTML template for component.
+===========================================
+-->
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+    <div class="logo"></div>
+    <img src="./assets/logo.png" height="60" />
+    <div style="width: 80%">
+      <div fxLayout="row wrap" fxLayoutAlign="end start">
+        <button mat-button routerLink="/">Home</button>
+      </div>
+    </div>
+  </mat-toolbar-row>
+</mat-toolbar>
+
+<br />
+
+<div fxLayout="row wrap">
+  <div fxFlex>
+    <mat-card class="main-container">
+      <mat-card-title>{{ assignment }}</mat-card-title>
+      <br /><br />
+      <mat-card-content>
+        <router-outlet></router-outlet>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>
